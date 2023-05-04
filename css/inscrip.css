@@ -1,0 +1,172 @@
+
+*{
+    margin: 0;
+    padding: 0;
+ }
+ ul{list-style: none;}
+ body{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+button{
+    font-size: 1.25em;
+    border-radius: 50px;
+    font-weight: bold;
+    padding: 10px 30px;
+    border: 2px solid rgba(0,0,0,0.3);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    color: white;
+    background-color: #087dcd;
+    text-decoration: none;
+
+}
+button:hover{
+    background-color: #0a5484;
+}
+header{
+    width: 100%;
+    height: 65px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+a:link{ text-decoration:none; color:red; }
+a:visited{ color:#ffffff; }
+a:active{ background-color: none; color:none; }
+
+
+.cabecera{
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #87bee3;
+    position: fixed;
+    width: 95.8%;
+    z-index: 100;
+}
+
+.logochico{
+    margin-left: 30px;
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+.logo p{
+    font-size: 12.5px ;
+    margin: 0px;
+    color:white;
+    white-space: nowrap;
+
+}
+
+.navbar{
+    display: flex;
+    margin-right: 10px;
+}
+.navbar a{
+    font-weight: bold;
+    display: block;
+    padding: 20px 20px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12.5px;
+    -webkit-transition: all 500ms ease;
+    -o-transition:all 500ms ease ;
+    transition: all 500ms ease;
+
+}
+.navbar a:hover{
+    background-color: #3ba9f3;
+    border-radius: 50px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    text-align: justify;
+    background-color: #87bee3;
+    color: white;
+    font-weight: bold;
+
+    
+}
+.container li{
+    margin: 15px 0px;
+}
+#inscripciones{
+    background-color:rgb(255, 241, 229) ;
+    color: white;
+    text-align: center;
+}
+#inscripciones .container1{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px 50px;
+}
+#inscripciones .carta{
+    
+    background-position: center center;
+    background-size: cover;
+    padding: 160px 100px;
+    height: 300px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg, rgba(0, 0, 0, 0.215),rgba(0, 0, 0, 0.215)
+    )
+    ,url(../img/estudiantes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+.carta:nth-child(2){
+    background-image: linear-gradient(
+        0deg, rgba(0, 0, 0, 0.215),rgba(0, 0, 0, 0.215)
+    )
+    ,url(../img/carreras.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.carta:nth-child(3){
+    background-image: linear-gradient(
+        0deg, rgba(0, 0, 0, 0.095),rgba(0, 0, 0, 0.095)
+    )
+    ,url(../img/materias.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+
+/* .container1{
+    display: flex;
+    background-color: rgb(255, 241, 229);
+    justify-content: space-evenly;
+}
+
+.inscrip{
+    width: 500px;
+    height: 500px;
+    margin: 15px;
+    background-color: white;
+    
+
+}
+.inscrip button{
+    float: right;
+
+} */
+
+
